@@ -1,14 +1,12 @@
 <script setup>
 
-import Header from "@/components/Header.vue";
+import Header from "@/components/Navbar.vue";
 </script>
 <template>
   <Header />
-  <div class="container mx-auto px-2 h-screen w-screen w-max bg-blue-500">
-    <main>
-      <router-view></router-view>
-    </main>
-  </div>
+  <main>
+    <router-view></router-view>
+  </main>
 
 </template>
 

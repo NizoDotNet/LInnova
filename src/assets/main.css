@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: DM Sans, Avenir, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+#app {
+    height: 100%;
+}
+.main {
+    height: 100%;
+}
+
+.linnova-color-1 {
+    background-color: #1679AB
+}
+.footer-fixed {
+    position: fixed;
+    bottom: 0;
+}

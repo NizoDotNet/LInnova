@@ -11,7 +11,7 @@
       </a>
       <div class="flex items-center space-x-6 rtl:space-x-reverse">
         <a href="#" class="text-sm  text-gray-500 dark:text-white hover:underline">Contact us</a>
-        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:hover:bg-blue-950 dark:focus:ring-blue-950" style="background-color: #1679AB">Login</button>
+        <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:hover:bg-blue-950 dark:focus:ring-blue-950 linnova-color-1">Login</button>
       </div>
     </div>
   </nav>

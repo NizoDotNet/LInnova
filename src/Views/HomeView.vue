@@ -1,5 +1,7 @@
 <script setup>
 
+import ProjectsComponent from "@/components/ProjectsComponent.vue";
+import CurrentProjects from "@/components/CurrentProjects.vue";
 </script>
 
 <template>
@@ -67,8 +69,9 @@
         </div>
         <div class="col-sm-4 new">
           <a href=""
-          >Our team is with different type of application. See other <router-link class="text-decoration-underline" to="">projects</router-link> </a
-          >
+          >Our team is with different type of application. See other
+            <a class="text-decoration-underline" href="#projects">projects</a>
+          </a>
         </div>
       </div>
       <a class="btn text-white border rounded my-5" href="">Read more</a>
@@ -111,46 +114,15 @@
       </div>
     </div>
   </div>
+  <div id="projects" class="p-5">
+    <h1 class="text-center text-white">Our projects:</h1>
+    <ProjectsComponent />
+  </div>
+  <div>
+    <h1 class="text-center text-white">We currently working on: </h1>
+    <CurrentProjects />
+  </div>
   <footer class="footer">
-<!--    <div class="container">-->
-<!--      &lt;!&ndash; Footer Section 1: Logo and About &ndash;&gt;-->
-<!--      <div class="footer-section">-->
-<!--        <h4 class="footer-title">About Us</h4>-->
-<!--        <p class="footer-text">-->
-<!--          We are a team of dedicated professionals committed to excellence.-->
-<!--          Our mission is to deliver outstanding results and drive innovation-->
-<!--          in every project.-->
-<!--        </p>-->
-<!--      </div>-->
-
-<!--      &lt;!&ndash; Footer Section 2: Links &ndash;&gt;-->
-<!--      <div class="footer-section">-->
-<!--        <h4 class="footer-title">Quick Links</h4>-->
-<!--        <ul class="footer-links">-->
-<!--          <li><a href="#">Home</a></li>-->
-<!--          <li><a href="#">Services</a></li>-->
-<!--          <li><a href="#">About Us</a></li>-->
-<!--          <li><a href="#">Contact</a></li>-->
-<!--        </ul>-->
-<!--      </div>-->
-
-<!--      &lt;!&ndash; Footer Section 3: Social Media &ndash;&gt;-->
-<!--      <div class="footer-section">-->
-<!--        <h4 class="footer-title">Follow Us</h4>-->
-<!--        <div class="social-icons">-->
-<!--          <a href="#" class="social-icon"-->
-<!--          ><i class="fab fa-facebook-f"></i-->
-<!--          ></a>-->
-<!--          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>-->
-<!--          <a href="#" class="social-icon"-->
-<!--          ><i class="fab fa-linkedin-in"></i-->
-<!--          ></a>-->
-<!--          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-
-    <!-- Footer Section 4: Copyright & Newsletter -->
     <div class="footer-bottom">
       <p class="footer-copyright">
         &copy; 2024 LInnova. All Rights Reserved.

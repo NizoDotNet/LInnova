@@ -4,10 +4,8 @@ import Header from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 </script>
 <template>
-  <Header />
-  <div class="main linnova-color-1">
+  <div class="main">
     <router-view></router-view>
   </div>
-  <Footer />
 </template>
 

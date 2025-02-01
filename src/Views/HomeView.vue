@@ -125,7 +125,7 @@ import CurrentProjects from "@/components/CurrentProjects.vue";
   <footer class="footer">
     <div class="footer-bottom">
       <p class="footer-copyright">
-        &copy; 2024 LInnova. All Rights Reserved.
+        &copy; {{ new Date().getFullYear() }} LInnova. All Rights Reserved.
       </p>
       <div class="newsletter">
         <input

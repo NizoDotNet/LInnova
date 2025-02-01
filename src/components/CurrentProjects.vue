@@ -12,10 +12,9 @@
         This is our the one of the biggest projects.
         'YouBase' is a platform where you can find groups, chats, events for your interest.
         Content creator can have exclusive content which will could be accessed only from 'VIP'
-        users who paid for this. Also these users can joint private groups and get other benefits
+        users who paid for this. Also these users can join private groups and get other benefits
         which content creator gives. There are similar projects like 'Boosty', 'Udemy' and etc.
-        The main difference is the recommendation algorithms which allow creator get first subscribers
-        which Boosty did not have
+        The main difference is the recommendation algorithms which allow creator get first subscribers.
       </p>
       <h5>What we want implement</h5>
       <ol>
